@@ -1,8 +1,8 @@
 {
-    "name": "there4/slim-test-helpers",
+    "name": "nordwall/slim-test-helpers",
     "description": "Integration testing helpers for the Slim Framework",
     "keywords": ["slim"],
-    "homepage": "https://github.com/there4/slim-test-helpers",
+    "homepage": "https://github.com/nordwall/slim-test-helpers",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -15,10 +15,6 @@
             "homepage": "http://guillermoandraefisher.com"
         }
     ],
-    "support": {
-        "issues": "https://github.com/there4/slim-test-helpers/issues",
-        "source": "https://github.com/there4/slim-test-helpers"
-    },
     "require": {
         "slim/slim": "3.*",
         "phpunit/phpunit": "^4.8|5.*",
@@ -31,12 +27,12 @@
     },
     "autoload": {
         "psr-0": {
-            "There4": "src/"
+            "Nordwall": "src/"
         }
     },
     "autoload-dev": {
         "psr-0": {
-            "There4Test": "tests/"
+            "NordwallTest": "tests/"
         }
     },
     "scripts": {

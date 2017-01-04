@@ -1,8 +1,8 @@
 <?php
 
-namespace There4Test\Slim\Test;
+namespace NordwallTest\Slim\Test;
 
-use There4\Slim\Test\WebTestCase;
+use Nordwall\Slim\Test\WebTestCase;
 
 class WebTestCaseTest extends \PHPUnit_Framework_TestCase
 {

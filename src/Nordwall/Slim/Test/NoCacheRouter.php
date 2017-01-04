@@ -1,6 +1,6 @@
 <?php
 
-namespace There4\Slim\Test;
+namespace Nordwall\Slim\Test;
 
 /**
  * This router acts as a middle man requesting flushing the underlying

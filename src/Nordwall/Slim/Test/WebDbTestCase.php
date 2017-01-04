@@ -1,6 +1,6 @@
 <?php
 
-namespace There4\Slim\Test;
+namespace Nordwall\Slim\Test;
 
 class WebDbTestCase extends \PHPUnit_Extensions_Database_TestCase
 {

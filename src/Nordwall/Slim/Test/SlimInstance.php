@@ -1,5 +1,5 @@
 <?php
-namespace There4\Slim\Test;
+namespace Nordwall\Slim\Test;
 
 use \Slim\App;
 

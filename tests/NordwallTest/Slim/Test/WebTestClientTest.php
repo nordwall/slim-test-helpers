@@ -1,10 +1,10 @@
 <?php
 
-namespace There4Test\Slim\Test;
+namespace NordwallTest\Slim\Test;
 
 use Slim\App;
-use There4\Slim\Test\WebTestCase;
-use There4\Slim\Test\WebTestClient;
+use Nordwall\Slim\Test\WebTestCase;
+use Nordwall\Slim\Test\WebTestClient;
 
 class WebTestClientTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace There4Test\Slim\Test;
+namespace Nordwall\Slim\Test;
 
-use There4\Slim\Test\WebDbTestCase;
+use Nordwall\Slim\Test\WebDbTestCase;
 
 class WebDbTestCaseTest extends \PHPUnit_Framework_TestCase
 {
@@ -21,7 +21,7 @@ class WebDbTestCaseTest extends \PHPUnit_Framework_TestCase
         $testCase->setup();
 
         $actualClass   = get_class($testCase->client);
-        $expectedClass = 'There4\Slim\Test\WebTestClient';
+        $expectedClass = 'Nordwall\Slim\Test\WebTestClient';
 
         self::assertEquals($expectedClass, $actualClass);
     }

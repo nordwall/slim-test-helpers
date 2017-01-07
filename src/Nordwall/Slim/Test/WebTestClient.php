@@ -106,8 +106,8 @@ class WebTestClient
         $app = $this->app;
         $this->response = $app->process($this->request, $response);
 
-        // Return the application output.
-        return (string)$this->response->getBody();
+        // Return the actual PSR7 response object.
+        return $this->response;
     }
 
     public function setCookie($name, $value)
